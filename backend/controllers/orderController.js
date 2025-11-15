@@ -6,7 +6,7 @@ import stripe from "stripe"
 // palcing user order for frontend
 const placeOrder = async (req,res)=>{
 
-    const frountend_url =" http://localhost:5173"
+    const frountend_url = "https://food-del-frontend-9i8q.onrender.com/"
 
      try {
         const newOrder = new orderModel({
