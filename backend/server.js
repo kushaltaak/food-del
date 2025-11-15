@@ -38,5 +38,3 @@ app.listen(port,()=>{
 })
 
 
-//CpCFuBNiSTb1j1JR
-// mongodb+srv://kushaltaak44_db_user:<db_password>@cluster0.koff0qx.mongodb.net/
