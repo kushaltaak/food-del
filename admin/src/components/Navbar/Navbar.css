@@ -1,0 +1,59 @@
+/* Navbar.css */
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo styling */
+.navbar .logo {
+  height: 45px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.navbar .logo:hover {
+  transform: scale(1.05);
+}
+
+/* Profile image styling */
+.navbar img:last-child {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #e5e5e5;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar img:last-child:hover {
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  .navbar .logo {
+    height: 35px;
+  }
+
+  .navbar img:last-child {
+    height: 36px;
+    width: 36px;
+  }
+}
